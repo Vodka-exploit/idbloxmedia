@@ -11,6 +11,8 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
+            background-color: #121212;
+            color: white;
         }
 
         .hero {
@@ -33,9 +35,17 @@
 
         .footer {
             background: #333;
-            color: black;
+            color: white;
             padding: 20px 0;
             text-align: center;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: white;
         }
     </style>
 </head>
@@ -51,6 +61,15 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tos.html">Terms of Service</a>
@@ -77,8 +96,18 @@
             <div class="row">
                 <div class="col-md-4 feature-item">
                     <i class="fas fa-cogs fa-4x mb-3"></i>
-                    <h3>Apa itu idbloxmedia.xyz</h3>
-                    <p>idbloxmedia.xyz adalah website yang dimiliki oleh ZUAZUAMAN Group</p>
+                    <h3>Aplikasi Inovatif</h3>
+                    <p>Kami menyediakan aplikasi yang inovatif untuk kebutuhan bisnis Anda.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <i class="fas fa-mobile-alt fa-4x mb-3"></i>
+                    <h3>Desain Responsif</h3>
+                    <p>Desain yang responsif dan bekerja pada semua perangkat, besar atau kecil.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <i class="fas fa-shield-alt fa-4x mb-3"></i>
+                    <h3>Keamanan Terjamin</h3>
+                    <p>Keamanan dan keandalan, memastikan data Anda selalu terlindungi.</p>
                 </div>
             </div>
         </div>
